@@ -1,0 +1,8 @@
+{
+    "Model": "LinearRegression_Baseline",
+    "Time_Sec": 49.48,
+    "R2_Global": 0.379,
+    "RMSE_Global": 9.0236,
+    "MAE_Global": 4.1013,
+    "R2_Snow_Only": 0.0118
+}
