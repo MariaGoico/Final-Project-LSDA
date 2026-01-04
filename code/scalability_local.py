@@ -104,8 +104,9 @@ def main(argv):
     
     # Sample fraction if pct < 100
     if pct < 100:
-        print(f"   Sampling {pct}% of training data...")
-        df_train = df_train.sample(fraction=pct/100.0, seed=42)
+        print(f"   Sampling {pct}% of total universe...")
+        df_train = df_train.sample(withReplacement=False, fraction=pct/100.0, seed=42)
+
 
     # Repartition training data
     df_train = df_train.repartition(cores)
