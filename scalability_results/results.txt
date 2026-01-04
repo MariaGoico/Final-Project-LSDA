@@ -1,0 +1,1799 @@
+Analysing with 1 
+
+============================================================
+--- STARTING: DecisionTree_cores1_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 11:54:40 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 1
+
+2. Training DecisionTree_cores1_pct100...
+   Training completed in 78.28 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.5483                                                      
+
+============================================================
+SUMMARY:
+  Cores: 1
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 78.28s
+  Validation RMSE: 7.5483
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 2 
+
+============================================================
+--- STARTING: DecisionTree_cores2_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 11:57:04 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 2
+
+2. Training DecisionTree_cores2_pct100...
+   Training completed in 51.65 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.7412                                                      
+
+============================================================
+SUMMARY:
+  Cores: 2
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 51.65s
+  Validation RMSE: 7.7412
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 4 
+
+============================================================
+--- STARTING: DecisionTree_cores4_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 11:58:53 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 4
+
+2. Training DecisionTree_cores4_pct100...
+   Training completed in 41.74 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4632                                                      
+
+============================================================
+SUMMARY:
+  Cores: 4
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 41.74s
+  Validation RMSE: 7.4632
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 8 
+
+============================================================
+--- STARTING: DecisionTree_cores8_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:00:19 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 8
+
+2. Training DecisionTree_cores8_pct100...
+   Training completed in 42.90 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.3982                                                      
+
+============================================================
+SUMMARY:
+  Cores: 8
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 42.90s
+  Validation RMSE: 7.3982
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 12 
+
+============================================================
+--- STARTING: DecisionTree_cores12_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:01:49 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 12
+
+2. Training DecisionTree_cores12_pct100...
+   Training completed in 40.93 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4422                                                      
+
+============================================================
+SUMMARY:
+  Cores: 12
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 40.93s
+  Validation RMSE: 7.4422
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 1 
+
+============================================================
+--- STARTING: DecisionTree_cores1_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:03:20 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 1
+
+2. Training DecisionTree_cores1_pct100...
+   Training completed in 80.05 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.5483                                                      
+
+============================================================
+SUMMARY:
+  Cores: 1
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 80.05s
+  Validation RMSE: 7.5483
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 2 
+
+============================================================
+--- STARTING: DecisionTree_cores2_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:05:42 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 2
+
+2. Training DecisionTree_cores2_pct100...
+   Training completed in 50.18 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.7412                                                      
+
+============================================================
+SUMMARY:
+  Cores: 2
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 50.18s
+  Validation RMSE: 7.7412
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 4 
+
+============================================================
+--- STARTING: DecisionTree_cores4_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:07:23 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 4
+
+2. Training DecisionTree_cores4_pct100...
+   Training completed in 36.25 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4632                                                      
+
+============================================================
+SUMMARY:
+  Cores: 4
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 36.25s
+  Validation RMSE: 7.4632
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 8 
+
+============================================================
+--- STARTING: DecisionTree_cores8_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:08:42 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 8
+
+2. Training DecisionTree_cores8_pct100...
+   Training completed in 42.26 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.3982                                                      
+
+============================================================
+SUMMARY:
+  Cores: 8
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 42.26s
+  Validation RMSE: 7.3982
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 12 
+
+============================================================
+--- STARTING: DecisionTree_cores12_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:10:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 12
+
+2. Training DecisionTree_cores12_pct100...
+   Training completed in 43.47 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4422                                                      
+
+============================================================
+SUMMARY:
+  Cores: 12
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 43.47s
+  Validation RMSE: 7.4422
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 1 
+
+============================================================
+--- STARTING: DecisionTree_cores1_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:11:45 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 1
+
+2. Training DecisionTree_cores1_pct100...
+   Training completed in 80.16 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.5483                                                      
+
+============================================================
+SUMMARY:
+  Cores: 1
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 80.16s
+  Validation RMSE: 7.5483
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 2 
+
+============================================================
+--- STARTING: DecisionTree_cores2_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:14:07 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 2
+
+2. Training DecisionTree_cores2_pct100...
+   Training completed in 51.72 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.7412                                                      
+
+============================================================
+SUMMARY:
+  Cores: 2
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 51.72s
+  Validation RMSE: 7.7412
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 4 
+
+============================================================
+--- STARTING: DecisionTree_cores4_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:15:49 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 4
+
+2. Training DecisionTree_cores4_pct100...
+   Training completed in 38.91 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4632                                                      
+
+============================================================
+SUMMARY:
+  Cores: 4
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 38.91s
+  Validation RMSE: 7.4632
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 8 
+
+============================================================
+--- STARTING: DecisionTree_cores8_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:17:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 8
+
+2. Training DecisionTree_cores8_pct100...
+   Training completed in 38.56 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.3982                                                      
+
+============================================================
+SUMMARY:
+  Cores: 8
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 38.56s
+  Validation RMSE: 7.3982
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 12 
+
+============================================================
+--- STARTING: DecisionTree_cores12_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:18:29 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 12
+
+2. Training DecisionTree_cores12_pct100...
+   Training completed in 44.60 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4422                                                      
+
+============================================================
+SUMMARY:
+  Cores: 12
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 44.60s
+  Validation RMSE: 7.4422
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 1 
+
+============================================================
+--- STARTING: DecisionTree_cores1_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:19:57 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 1
+
+2. Training DecisionTree_cores1_pct100...
+   Training completed in 79.10 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.5483                                                      
+
+============================================================
+SUMMARY:
+  Cores: 1
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 79.10s
+  Validation RMSE: 7.5483
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 2 
+
+============================================================
+--- STARTING: DecisionTree_cores2_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:22:20 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 2
+
+2. Training DecisionTree_cores2_pct100...
+   Training completed in 51.42 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.7412                                                      
+
+============================================================
+SUMMARY:
+  Cores: 2
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 51.42s
+  Validation RMSE: 7.7412
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 4 
+
+============================================================
+--- STARTING: DecisionTree_cores4_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:24:06 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 4
+
+2. Training DecisionTree_cores4_pct100...
+   Training completed in 36.72 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4632                                                      
+
+============================================================
+SUMMARY:
+  Cores: 4
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 36.72s
+  Validation RMSE: 7.4632
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 8 
+
+============================================================
+--- STARTING: DecisionTree_cores8_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:25:24 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 8
+
+2. Training DecisionTree_cores8_pct100...
+   Training completed in 40.21 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.3982                                                      
+
+============================================================
+SUMMARY:
+  Cores: 8
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 40.21s
+  Validation RMSE: 7.3982
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 12 
+
+============================================================
+--- STARTING: DecisionTree_cores12_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:26:46 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 12
+
+2. Training DecisionTree_cores12_pct100...
+   Training completed in 44.85 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4422                                                      
+
+============================================================
+SUMMARY:
+  Cores: 12
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 44.85s
+  Validation RMSE: 7.4422
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 1 
+
+============================================================
+--- STARTING: DecisionTree_cores1_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:28:21 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 1
+
+2. Training DecisionTree_cores1_pct100...
+   Training completed in 81.29 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.5483                                                      
+
+============================================================
+SUMMARY:
+  Cores: 1
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 81.29s
+  Validation RMSE: 7.5483
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 2 
+
+============================================================
+--- STARTING: DecisionTree_cores2_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:30:45 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 2
+
+2. Training DecisionTree_cores2_pct100...
+   Training completed in 52.42 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.7412                                                      
+
+============================================================
+SUMMARY:
+  Cores: 2
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 52.42s
+  Validation RMSE: 7.7412
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 4 
+
+============================================================
+--- STARTING: DecisionTree_cores4_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:32:30 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 4
+
+2. Training DecisionTree_cores4_pct100...
+   Training completed in 38.79 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4632                                                      
+
+============================================================
+SUMMARY:
+  Cores: 4
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 38.79s
+  Validation RMSE: 7.4632
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 8 
+
+============================================================
+--- STARTING: DecisionTree_cores8_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:33:47 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 8
+
+2. Training DecisionTree_cores8_pct100...
+   Training completed in 43.59 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.3982                                                      
+
+============================================================
+SUMMARY:
+  Cores: 8
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 43.59s
+  Validation RMSE: 7.3982
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 12 
+
+============================================================
+--- STARTING: DecisionTree_cores12_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:35:16 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 12
+
+2. Training DecisionTree_cores12_pct100...
+   Training completed in 41.08 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4422                                                      
+
+============================================================
+SUMMARY:
+  Cores: 12
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 41.08s
+  Validation RMSE: 7.4422
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 1 
+
+============================================================
+--- STARTING: DecisionTree_cores1_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:36:41 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 1
+
+2. Training DecisionTree_cores1_pct100...
+   Training completed in 82.05 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.5483                                                      
+
+============================================================
+SUMMARY:
+  Cores: 1
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 82.05s
+  Validation RMSE: 7.5483
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 2 
+
+============================================================
+--- STARTING: DecisionTree_cores2_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:39:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 2
+
+2. Training DecisionTree_cores2_pct100...
+   Training completed in 57.50 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.7412                                                      
+
+============================================================
+SUMMARY:
+  Cores: 2
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 57.50s
+  Validation RMSE: 7.7412
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 4 
+
+============================================================
+--- STARTING: DecisionTree_cores4_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:40:56 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 4
+
+2. Training DecisionTree_cores4_pct100...
+   Training completed in 41.66 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4632                                                      
+
+============================================================
+SUMMARY:
+  Cores: 4
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 41.66s
+  Validation RMSE: 7.4632
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 8 
+
+============================================================
+--- STARTING: DecisionTree_cores8_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:42:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 8
+
+2. Training DecisionTree_cores8_pct100...
+   Training completed in 45.90 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.3982                                                      
+
+============================================================
+SUMMARY:
+  Cores: 8
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 45.90s
+  Validation RMSE: 7.3982
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 12 
+
+============================================================
+--- STARTING: DecisionTree_cores12_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:43:47 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 12
+
+2. Training DecisionTree_cores12_pct100...
+   Training completed in 46.74 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4422                                                      
+
+============================================================
+SUMMARY:
+  Cores: 12
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 46.74s
+  Validation RMSE: 7.4422
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 1 
+
+============================================================
+--- STARTING: DecisionTree_cores1_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:45:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 1
+
+2. Training DecisionTree_cores1_pct100...
+   Training completed in 83.49 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.5483                                                      
+
+============================================================
+SUMMARY:
+  Cores: 1
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 83.49s
+  Validation RMSE: 7.5483
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 2 
+
+============================================================
+--- STARTING: DecisionTree_cores2_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:47:56 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 2
+
+2. Training DecisionTree_cores2_pct100...
+   Training completed in 57.80 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.7412                                                      
+
+============================================================
+SUMMARY:
+  Cores: 2
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 57.80s
+  Validation RMSE: 7.7412
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 4 
+
+============================================================
+--- STARTING: DecisionTree_cores4_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:49:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 4
+
+2. Training DecisionTree_cores4_pct100...
+   Training completed in 41.94 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4632                                                      
+
+============================================================
+SUMMARY:
+  Cores: 4
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 41.94s
+  Validation RMSE: 7.4632
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 8 
+
+============================================================
+--- STARTING: DecisionTree_cores8_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:51:16 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 8
+
+2. Training DecisionTree_cores8_pct100...
+   Training completed in 45.27 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.3982                                                      
+
+============================================================
+SUMMARY:
+  Cores: 8
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 45.27s
+  Validation RMSE: 7.3982
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 12 
+
+============================================================
+--- STARTING: DecisionTree_cores12_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:52:44 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 12
+
+2. Training DecisionTree_cores12_pct100...
+   Training completed in 44.95 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4422                                                      
+
+============================================================
+SUMMARY:
+  Cores: 12
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 44.95s
+  Validation RMSE: 7.4422
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 1 
+
+============================================================
+--- STARTING: DecisionTree_cores1_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:54:20 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 1
+
+2. Training DecisionTree_cores1_pct100...
+   Training completed in 82.77 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.5483                                                      
+
+============================================================
+SUMMARY:
+  Cores: 1
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 82.77s
+  Validation RMSE: 7.5483
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 2 
+
+============================================================
+--- STARTING: DecisionTree_cores2_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:56:44 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 2
+
+2. Training DecisionTree_cores2_pct100...
+   Training completed in 60.63 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.7412                                                      
+
+============================================================
+SUMMARY:
+  Cores: 2
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 60.63s
+  Validation RMSE: 7.7412
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 4 
+
+============================================================
+--- STARTING: DecisionTree_cores4_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 12:58:41 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 4
+
+2. Training DecisionTree_cores4_pct100...
+   Training completed in 42.09 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4632                                                      
+
+============================================================
+SUMMARY:
+  Cores: 4
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 42.09s
+  Validation RMSE: 7.4632
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 8 
+
+============================================================
+--- STARTING: DecisionTree_cores8_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 13:00:11 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 8
+
+2. Training DecisionTree_cores8_pct100...
+   Training completed in 50.22 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.3982                                                      
+
+============================================================
+SUMMARY:
+  Cores: 8
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 50.22s
+  Validation RMSE: 7.3982
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 12 
+
+============================================================
+--- STARTING: DecisionTree_cores12_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 13:02:02 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 12
+
+2. Training DecisionTree_cores12_pct100...
+   Training completed in 47.92 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4422                                                      
+
+============================================================
+SUMMARY:
+  Cores: 12
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 47.92s
+  Validation RMSE: 7.4422
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 1 
+
+============================================================
+--- STARTING: DecisionTree_cores1_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 13:03:41 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 1
+
+2. Training DecisionTree_cores1_pct100...
+   Training completed in 81.31 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.5483                                                      
+
+============================================================
+SUMMARY:
+  Cores: 1
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 81.31s
+  Validation RMSE: 7.5483
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 2 
+
+============================================================
+--- STARTING: DecisionTree_cores2_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 13:06:07 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 2
+
+2. Training DecisionTree_cores2_pct100...
+   Training completed in 53.96 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.7412                                                      
+
+============================================================
+SUMMARY:
+  Cores: 2
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 53.96s
+  Validation RMSE: 7.7412
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 4 
+
+============================================================
+--- STARTING: DecisionTree_cores4_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 13:07:55 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 4
+
+2. Training DecisionTree_cores4_pct100...
+   Training completed in 39.45 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4632                                                      
+
+============================================================
+SUMMARY:
+  Cores: 4
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 39.45s
+  Validation RMSE: 7.4632
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 8 
+
+============================================================
+--- STARTING: DecisionTree_cores8_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 13:09:19 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 8
+
+2. Training DecisionTree_cores8_pct100...
+   Training completed in 46.04 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.3982                                                      
+
+============================================================
+SUMMARY:
+  Cores: 8
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 46.04s
+  Validation RMSE: 7.3982
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 12 
+
+============================================================
+--- STARTING: DecisionTree_cores12_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 13:10:55 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 12
+
+2. Training DecisionTree_cores12_pct100...
+   Training completed in 46.86 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4422                                                      
+
+============================================================
+SUMMARY:
+  Cores: 12
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 46.86s
+  Validation RMSE: 7.4422
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 1 
+
+============================================================
+--- STARTING: DecisionTree_cores1_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 13:12:40 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 1
+
+2. Training DecisionTree_cores1_pct100...
+   Training completed in 82.95 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.5483                                                      
+
+============================================================
+SUMMARY:
+  Cores: 1
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 82.95s
+  Validation RMSE: 7.5483
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 2 
+
+============================================================
+--- STARTING: DecisionTree_cores2_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 13:15:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 2
+
+2. Training DecisionTree_cores2_pct100...
+   Training completed in 52.14 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.7412                                                      
+
+============================================================
+SUMMARY:
+  Cores: 2
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 52.14s
+  Validation RMSE: 7.7412
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 4 
+
+============================================================
+--- STARTING: DecisionTree_cores4_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 13:16:56 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 4
+
+2. Training DecisionTree_cores4_pct100...
+   Training completed in 41.34 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4632                                                      
+
+============================================================
+SUMMARY:
+  Cores: 4
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 41.34s
+  Validation RMSE: 7.4632
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 8 
+
+============================================================
+--- STARTING: DecisionTree_cores8_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 13:18:18 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 8
+
+2. Training DecisionTree_cores8_pct100...
+   Training completed in 42.60 seconds.                                         
+
+3. Saving Model...
+                                                                                
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.3982                                                      
+
+============================================================
+SUMMARY:
+  Cores: 8
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 42.60s
+  Validation RMSE: 7.3982
+============================================================
+
+--- PROCESS FINISHED ---
+
+Analysing with 12 
+
+============================================================
+--- STARTING: DecisionTree_cores12_pct100 ---
+============================================================
+
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/01/03 13:19:48 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1. Loading Data...
+   Features (19): ['LATITUDE', 'LONGITUDE', 'ELEVATION', 'TEMP', 'DEWP']... (showing first 5)
+   Assembling features...
+   Training Rows: 9,666,878                                                     
+   Partitions: 12
+
+2. Training DecisionTree_cores12_pct100...
+   Training completed in 45.70 seconds.                                         
+
+3. Saving Model...
+
+4. Evaluating on Validation Set...
+   Validation RMSE: 7.4422                                                      
+
+============================================================
+SUMMARY:
+  Cores: 12
+  Data fraction: 100%
+  Training rows: 9,666,878
+  Total runtime: 45.70s
+  Validation RMSE: 7.4422
+============================================================
+
+--- PROCESS FINISHED ---
