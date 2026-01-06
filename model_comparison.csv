@@ -3,3 +3,11 @@ LinearRegression_Baseline,49.48,0.379,9.0236,4.1013,0.0118
 RandomForest_Baseline,1564.64,0.6211,7.0489,1.6059,0.3284
 RandomForest_New_Features,1778.49,0.6995,6.2765,1.3906,0.4675
 GBT_New_Features,8294.65,0.6998,6.2742,1.3991,0.4696
+LinearRegression_Baseline,59.4,0.3739,9.4421,4.2484,0.0558
+LinearRegression_Baseline,53.45,0.3686,9.4824,4.2691,0.0454
+LinearRegression_Baseline,57.6,0.3411,9.6867,4.6305,0.0376
+RandomForest_New_Features,629.51,0.5402,8.0918,1.8395,0.231
+Random_Forest_Reduced,629.51,0.5402,8.0918,1.8395,0.231
+RandomForest_New_Features,1098.15,0.8654,0.3344,0.0976,0.353
+RandomForest_Lag_Features,202.51,0.9885,0.0975,0.0195,0.9507
+RandomForest_Lag_Features,869.66,0.9884,0.0982,0.0177,0.9501

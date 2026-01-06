@@ -1,0 +1,8 @@
+{
+    "Model": "Random_Forest_Reduced",
+    "Time_Sec": 629.51,
+    "R2_Global": 0.5402,
+    "RMSE_Global": 8.0918,
+    "MAE_Global": 1.8395,
+    "R2_Snow_Only": 0.231
+}

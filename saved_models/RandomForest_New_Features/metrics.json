@@ -1,8 +1,0 @@
-{
-    "Model": "RandomForest_New_Features",
-    "Time_Sec": 1778.49,
-    "R2_Global": 0.6995,
-    "RMSE_Global": 6.2765,
-    "MAE_Global": 1.3906,
-    "R2_Snow_Only": 0.4675
-}
