@@ -11,3 +11,13 @@ Random_Forest_Reduced,629.51,0.5402,8.0918,1.8395,0.231
 RandomForest_New_Features,1098.15,0.8654,0.3344,0.0976,0.353
 RandomForest_Lag_Features,202.51,0.9885,0.0975,0.0195,0.9507
 RandomForest_Lag_Features,869.66,0.9884,0.0982,0.0177,0.9501
+LinearRegression_Baseline,49.87,0.9842,1.4976,0.171,0.976
+LinearRegression_Baseline,41.82,0.3613,9.534,4.2187,0.0218
+DecisionTree_Baseline,127.17,0.4996,8.4388,1.9734,0.1591
+RandomForest_Baseline,441.75,0.5048,8.3946,1.9914,0.1659
+GBT_Baseline,854.75,0.5262,8.2115,1.926,0.2031
+GBT_Baseline,1576.9,0.5451,8.0461,1.8859,0.2347
+LinearRegression_Lag_Features,50.05,0.9318,0.2376,0.1048,0.672
+DecisionTree_Lag_Features,176.89,0.9868,0.1044,0.0202,0.9336
+RandomForest_Lag_Features,402.59,0.9851,0.111,0.0227,0.9257
+GBT_Lag_Features,2404.53,0.9886,0.0973,0.0179,0.9423

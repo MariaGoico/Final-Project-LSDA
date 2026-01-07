@@ -1,0 +1,8 @@
+{
+    "Model": "GBT_Baseline",
+    "Time_Sec": 1576.9,
+    "R2_Global": 0.5451,
+    "RMSE_Global": 8.0461,
+    "MAE_Global": 1.8859,
+    "R2_Snow_Only": 0.2347
+}

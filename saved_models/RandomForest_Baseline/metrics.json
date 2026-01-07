@@ -1,8 +1,8 @@
 {
     "Model": "RandomForest_Baseline",
-    "Time_Sec": 1564.64,
-    "R2_Global": 0.6211,
-    "RMSE_Global": 7.0489,
-    "MAE_Global": 1.6059,
-    "R2_Snow_Only": 0.3284
+    "Time_Sec": 441.75,
+    "R2_Global": 0.5048,
+    "RMSE_Global": 8.3946,
+    "MAE_Global": 1.9914,
+    "R2_Snow_Only": 0.1659
 }

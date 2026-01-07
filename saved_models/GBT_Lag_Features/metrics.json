@@ -1,0 +1,8 @@
+{
+    "Model": "GBT_Lag_Features",
+    "Time_Sec": 2404.53,
+    "R2_Global": 0.9886,
+    "RMSE_Global": 0.0973,
+    "MAE_Global": 0.0179,
+    "R2_Snow_Only": 0.9423
+}

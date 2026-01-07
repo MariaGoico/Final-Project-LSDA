@@ -1,0 +1,8 @@
+{
+    "Model": "DecisionTree_Lag_Features",
+    "Time_Sec": 176.89,
+    "R2_Global": 0.9868,
+    "RMSE_Global": 0.1044,
+    "MAE_Global": 0.0202,
+    "R2_Snow_Only": 0.9336
+}

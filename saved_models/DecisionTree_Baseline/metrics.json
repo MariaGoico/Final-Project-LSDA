@@ -1,0 +1,8 @@
+{
+    "Model": "DecisionTree_Baseline",
+    "Time_Sec": 127.17,
+    "R2_Global": 0.4996,
+    "RMSE_Global": 8.4388,
+    "MAE_Global": 1.9734,
+    "R2_Snow_Only": 0.1591
+}
