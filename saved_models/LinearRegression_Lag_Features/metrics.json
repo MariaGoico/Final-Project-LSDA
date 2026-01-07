@@ -1,8 +1,8 @@
 {
     "Model": "LinearRegression_Lag_Features",
-    "Time_Sec": 50.05,
-    "R2_Global": 0.9318,
-    "RMSE_Global": 0.2376,
-    "MAE_Global": 0.1048,
-    "R2_Snow_Only": 0.672
+    "Time_Sec": 58.59,
+    "R2_Global": 0.8263,
+    "RMSE_Global": 0.3793,
+    "MAE_Global": 0.2881,
+    "R2_Snow_Only": 0.6486
 }

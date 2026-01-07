@@ -1,8 +1,8 @@
 {
     "Model": "RandomForest_Lag_Features",
-    "Time_Sec": 402.59,
-    "R2_Global": 0.9851,
-    "RMSE_Global": 0.111,
-    "MAE_Global": 0.0227,
-    "R2_Snow_Only": 0.9257
+    "Time_Sec": 547.2,
+    "R2_Global": 0.9845,
+    "RMSE_Global": 0.1134,
+    "MAE_Global": 0.024,
+    "R2_Snow_Only": 0.9356
 }

@@ -21,3 +21,7 @@ LinearRegression_Lag_Features,50.05,0.9318,0.2376,0.1048,0.672
 DecisionTree_Lag_Features,176.89,0.9868,0.1044,0.0202,0.9336
 RandomForest_Lag_Features,402.59,0.9851,0.111,0.0227,0.9257
 GBT_Lag_Features,2404.53,0.9886,0.0973,0.0179,0.9423
+LinearRegression_Lag_Features,58.59,0.8263,0.3793,0.2881,0.6486
+DecisionTree_Lag_Features,220.54,0.9865,0.1058,0.0183,0.9479
+RandomForest_Lag_Features,547.2,0.9845,0.1134,0.024,0.9356
+GBT_Lag_Features,2089.47,0.989,0.0953,0.017,0.9523
