@@ -8,8 +8,8 @@ from pyspark.sql import SparkSession
 from pyspark import StorageLevel
 import pyspark.sql.functions as sql_f
 from pyspark.ml.feature import VectorAssembler
-from pyspark.ml.classification import DecisionTreeClassifier
-from pyspark.ml.regression import DecisionTreeRegressor
+from pyspark.ml.classification import DecisionTreeClassifier, RandomForestClassifier
+from pyspark.ml.regression import DecisionTreeRegressor, RandomForestRegressor
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator, RegressionEvaluator
 
 """
@@ -24,6 +24,7 @@ ignore_cols = [target_col, "DATE", "STATION", "NAME", "features", "prediction", 
 valid_types = ['int', 'bigint', 'float', 'double', 'tinyint', 'smallint']
 
 MODEL_TYPE = "regression"  # "regression" or "classification"
+ALGORITHM = "rf"
 
 def get_paths(years):
     return [f"{BASE_DATA_PATH}/year={y}" for y in years]
@@ -66,6 +67,7 @@ def main(argv):
     spark = SparkSession.builder \
         .appName(MODEL_NAME) \
         .master(f"local[{cores}]") \
+        .config("spark.local.dir", "/home/alumno/Desktop/datos/spark_tmp") \
         .config("spark.driver.memory", MEM) \
         .config("spark.executor.memory", MEM) \
         .getOrCreate()
@@ -123,14 +125,19 @@ def main(argv):
     # Build model
     print(f"\n2. Training {MODEL_NAME}...")
 
-    model = DecisionTreeRegressor(
-        featuresCol="features", 
-        labelCol=target_col,
-        weightCol="weight",
-        maxDepth=5,       # Baseline depth, can be increased (e.g., 10) later
-        maxBins=32,       # Number of bins for continuous features
-        seed=42
-    )
+    common_params = {
+        "featuresCol": "features",
+        "labelCol": target_col,
+        "maxDepth": 5,
+        "maxBins": 32,
+        "seed": 42,
+        "weightCol": "weight"
+    }
+
+    if ALGORITHM == "rf":
+        model = RandomForestRegressor(**common_params, numTrees=20)
+    else:
+        model = DecisionTreeRegressor(**common_params)
 
     start_time = time.time()
     fitted_model = model.fit(train_vec)
@@ -138,10 +145,6 @@ def main(argv):
 
     total_runtime = end_time - start_time
     print(f"   Training completed in {total_runtime:.2f} seconds.")
-
-    # Save model
-    # print("\n3. Saving Model...")
-    # fitted_model.write().overwrite().save(os.path.join(model_output_dir, "spark_model"))
 
     # Evaluate on validation set
     print("\n4. Evaluating on Validation Set...")
@@ -157,6 +160,7 @@ def main(argv):
     print(f"  Cores: {cores}")
     print(f"  Data fraction: {pct}%")
     print(f"  Training rows: {train_count:,}")
+    print(f"  Training rows: 60642470")
     print(f"  Total runtime: {total_runtime:.2f}s")
     print(f"   Validation RMSE: {rmse:.4f}")
     print(f"   Validation R2: {r2:.4f}")
