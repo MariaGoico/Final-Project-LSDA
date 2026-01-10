@@ -8,9 +8,8 @@ from pyspark.sql import SparkSession
 from pyspark import StorageLevel
 import pyspark.sql.functions as sql_f
 from pyspark.ml.feature import VectorAssembler
-from pyspark.ml.classification import DecisionTreeClassifier, RandomForestClassifier
-from pyspark.ml.regression import DecisionTreeRegressor, RandomForestRegressor
-from pyspark.ml.evaluation import MulticlassClassificationEvaluator, RegressionEvaluator
+from pyspark.ml.regression import DecisionTreeRegressor, RandomForestRegressor, LinearRegression
+from pyspark.ml.evaluation import RegressionEvaluator
 
 """
 PySpark ML implementation for scalability experiments
@@ -24,7 +23,6 @@ ignore_cols = [target_col, "DATE", "STATION", "NAME", "features", "prediction", 
 valid_types = ['int', 'bigint', 'float', 'double', 'tinyint', 'smallint']
 
 MODEL_TYPE = "regression"  # "regression" or "classification"
-ALGORITHM = "rf"
 
 def get_paths(years):
     return [f"{BASE_DATA_PATH}/year={y}" for y in years]
@@ -54,7 +52,9 @@ def main(argv):
     # Parse arguments
     cores = int(argv[0])            # number of partitions / Spark cores
     pct = int(argv[1])              # percentage of training data to use
-    filename = argv[2] if len(argv) > 2 else "scalability_results.csv"
+    # CHANGE THIS to "rf", "dt", or "lr" to switch algorithms
+    ALGORITHM = argv[2] 
+    filename = argv[3] if len(argv) > 3 else "scalability_results.csv"
 
     MODEL_NAME = f"DecisionTree_cores{cores}_pct{pct}"
     print(f"\n{'='*60}")
@@ -62,13 +62,12 @@ def main(argv):
     print(f"{'='*60}\n")
 
     # Start Spark
-    MEM = "5g" 
+    MEM = "10g" 
 
     spark = SparkSession.builder \
         .appName(MODEL_NAME) \
         .master(f"local[{cores}]") \
-        .config("spark.local.dir", "/home/alumno/Desktop/datos/spark_tmp") \
-        .config("spark.driver.memory", MEM) \
+        .config("spark.driver.memory", "2g") \
         .config("spark.executor.memory", MEM) \
         .getOrCreate()
 
@@ -108,6 +107,7 @@ def main(argv):
 
 
     # Repartition training data
+    # df_train = df_train.repartition(200)
     df_train = df_train.repartition(cores)
     
     # Assemble features
@@ -125,19 +125,32 @@ def main(argv):
     # Build model
     print(f"\n2. Training {MODEL_NAME}...")
 
-    common_params = {
+    # 1. Base params (Valid for ALL models)
+    base_params = {
         "featuresCol": "features",
         "labelCol": target_col,
-        "maxDepth": 5,
-        "maxBins": 32,
-        "seed": 42,
         "weightCol": "weight"
     }
 
+    # 2. Tree-specific params (Valid ONLY for RF and DT)
+    tree_params = {
+        "maxDepth": 5,
+        "maxBins": 32,
+        "seed": 42
+    }
+
+    # 3. Model Logic
     if ALGORITHM == "rf":
-        model = RandomForestRegressor(**common_params, numTrees=20)
+        model = RandomForestRegressor(**base_params, **tree_params, numTrees=20)
+        
+    elif ALGORITHM == "dt":
+        model = DecisionTreeRegressor(**base_params, **tree_params)
+        
+    elif ALGORITHM == "lr":
+        model = LinearRegression(**base_params, regParam=0.1, elasticNetParam=0.5, maxIter=50)
+        
     else:
-        model = DecisionTreeRegressor(**common_params)
+        raise ValueError(f"Unknown Algorithm: {ALGORITHM}")
 
     start_time = time.time()
     fitted_model = model.fit(train_vec)
@@ -160,7 +173,6 @@ def main(argv):
     print(f"  Cores: {cores}")
     print(f"  Data fraction: {pct}%")
     print(f"  Training rows: {train_count:,}")
-    print(f"  Training rows: 60642470")
     print(f"  Total runtime: {total_runtime:.2f}s")
     print(f"   Validation RMSE: {rmse:.4f}")
     print(f"   Validation R2: {r2:.4f}")
